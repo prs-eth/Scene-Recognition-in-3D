@@ -1,0 +1,948 @@
+Namespace(add_color=True, batch_size=18, bn_momentum=0.5, bnm_decay=0.5, cuda=True, decay_step=200000.0, epochs=300, exp_name='256/color', input_plane=3, local=False, lr=0.001, lr_decay=0.7, num_points=256, output_plane=21, weight_decay=1e-05)
+Train 0, loss: 2.626, iou: 0.048, recall: 0.104, acc: 0.201
+Val 0, loss: 2.494, iou: 0.041, recall: 0.097, acc: 0.196
+Time: 28 s
+Better model!
+Train 1, loss: 2.545, iou: 0.047, recall: 0.103, acc: 0.203
+Val 1, loss: 2.372, iou: 0.055, recall: 0.137, acc: 0.276
+Time: 22 s
+Better model!
+Train 2, loss: 2.475, iou: 0.057, recall: 0.121, acc: 0.231
+Val 2, loss: 2.415, iou: 0.053, recall: 0.136, acc: 0.250
+Time: 22 s
+Train 3, loss: 2.455, iou: 0.065, recall: 0.130, acc: 0.243
+Val 3, loss: 2.425, iou: 0.066, recall: 0.134, acc: 0.254
+Time: 22 s
+Train 4, loss: 2.365, iou: 0.064, recall: 0.133, acc: 0.254
+Val 4, loss: 2.398, iou: 0.076, recall: 0.159, acc: 0.272
+Time: 22 s
+Train 5, loss: 2.329, iou: 0.080, recall: 0.161, acc: 0.304
+Val 5, loss: 2.308, iou: 0.065, recall: 0.150, acc: 0.298
+Time: 22 s
+Better model!
+Train 6, loss: 2.350, iou: 0.071, recall: 0.146, acc: 0.284
+Val 6, loss: 2.215, iou: 0.073, recall: 0.157, acc: 0.314
+Time: 22 s
+Better model!
+Train 7, loss: 2.302, iou: 0.080, recall: 0.152, acc: 0.282
+Val 7, loss: 2.213, iou: 0.101, recall: 0.193, acc: 0.336
+Time: 22 s
+Better model!
+Train 8, loss: 2.259, iou: 0.092, recall: 0.173, acc: 0.314
+Val 8, loss: 2.405, iou: 0.070, recall: 0.156, acc: 0.268
+Time: 22 s
+Train 9, loss: 2.248, iou: 0.090, recall: 0.171, acc: 0.322
+Val 9, loss: 2.184, iou: 0.098, recall: 0.192, acc: 0.350
+Time: 22 s
+Better model!
+Train 10, loss: 2.149, iou: 0.105, recall: 0.192, acc: 0.348
+Val 10, loss: 2.171, iou: 0.103, recall: 0.184, acc: 0.344
+Time: 22 s
+Train 11, loss: 2.132, iou: 0.092, recall: 0.176, acc: 0.333
+Val 11, loss: 2.109, iou: 0.101, recall: 0.196, acc: 0.362
+Time: 22 s
+Better model!
+Train 12, loss: 2.088, iou: 0.098, recall: 0.185, acc: 0.350
+Val 12, loss: 2.045, iou: 0.115, recall: 0.223, acc: 0.384
+Time: 22 s
+Better model!
+Train 13, loss: 2.032, iou: 0.102, recall: 0.192, acc: 0.361
+Val 13, loss: 1.992, iou: 0.130, recall: 0.234, acc: 0.400
+Time: 22 s
+Better model!
+Train 14, loss: 1.996, iou: 0.120, recall: 0.212, acc: 0.384
+Val 14, loss: 1.923, iou: 0.121, recall: 0.226, acc: 0.404
+Time: 22 s
+Better model!
+Train 15, loss: 1.987, iou: 0.121, recall: 0.214, acc: 0.392
+Val 15, loss: 1.860, iou: 0.152, recall: 0.262, acc: 0.438
+Time: 22 s
+Better model!
+Train 16, loss: 2.022, iou: 0.124, recall: 0.215, acc: 0.375
+Val 16, loss: 1.944, iou: 0.135, recall: 0.231, acc: 0.398
+Time: 22 s
+Train 17, loss: 1.936, iou: 0.134, recall: 0.230, acc: 0.408
+Val 17, loss: 1.991, iou: 0.126, recall: 0.231, acc: 0.394
+Time: 22 s
+Train 18, loss: 1.953, iou: 0.128, recall: 0.217, acc: 0.377
+Val 18, loss: 1.892, iou: 0.144, recall: 0.251, acc: 0.426
+Time: 22 s
+Train 19, loss: 1.927, iou: 0.140, recall: 0.235, acc: 0.399
+Val 19, loss: 1.775, iou: 0.179, recall: 0.288, acc: 0.438
+Time: 22 s
+Better model!
+Train 20, loss: 1.899, iou: 0.135, recall: 0.231, acc: 0.392
+Val 20, loss: 1.772, iou: 0.172, recall: 0.279, acc: 0.458
+Time: 22 s
+Better model!
+Train 21, loss: 1.816, iou: 0.163, recall: 0.264, acc: 0.434
+Val 21, loss: 1.674, iou: 0.197, recall: 0.311, acc: 0.458
+Time: 23 s
+Better model!
+Train 22, loss: 1.803, iou: 0.164, recall: 0.268, acc: 0.431
+Val 22, loss: 1.784, iou: 0.188, recall: 0.299, acc: 0.444
+Time: 23 s
+Train 23, loss: 1.853, iou: 0.142, recall: 0.237, acc: 0.400
+Val 23, loss: 1.781, iou: 0.206, recall: 0.343, acc: 0.438
+Time: 22 s
+Train 24, loss: 1.765, iou: 0.170, recall: 0.272, acc: 0.431
+Val 24, loss: 1.669, iou: 0.219, recall: 0.333, acc: 0.482
+Time: 22 s
+Better model!
+Train 25, loss: 1.770, iou: 0.179, recall: 0.284, acc: 0.448
+Val 25, loss: 1.586, iou: 0.201, recall: 0.321, acc: 0.458
+Time: 22 s
+Train 26, loss: 1.750, iou: 0.181, recall: 0.287, acc: 0.441
+Val 26, loss: 1.652, iou: 0.225, recall: 0.333, acc: 0.492
+Time: 23 s
+Better model!
+Train 27, loss: 1.715, iou: 0.179, recall: 0.285, acc: 0.445
+Val 27, loss: 1.597, iou: 0.232, recall: 0.383, acc: 0.500
+Time: 22 s
+Better model!
+Train 28, loss: 1.702, iou: 0.197, recall: 0.307, acc: 0.449
+Val 28, loss: 1.625, iou: 0.252, recall: 0.368, acc: 0.496
+Time: 22 s
+Train 29, loss: 1.735, iou: 0.184, recall: 0.290, acc: 0.453
+Val 29, loss: 1.695, iou: 0.217, recall: 0.323, acc: 0.478
+Time: 22 s
+Train 30, loss: 1.727, iou: 0.185, recall: 0.288, acc: 0.441
+Val 30, loss: 1.580, iou: 0.242, recall: 0.372, acc: 0.478
+Time: 22 s
+Train 31, loss: 1.659, iou: 0.193, recall: 0.306, acc: 0.451
+Val 31, loss: 1.638, iou: 0.223, recall: 0.347, acc: 0.486
+Time: 23 s
+Train 32, loss: 1.699, iou: 0.192, recall: 0.302, acc: 0.461
+Val 32, loss: 1.642, iou: 0.228, recall: 0.370, acc: 0.476
+Time: 22 s
+Train 33, loss: 1.603, iou: 0.220, recall: 0.337, acc: 0.488
+Val 33, loss: 1.439, iou: 0.316, recall: 0.487, acc: 0.568
+Time: 22 s
+Better model!
+Train 34, loss: 1.621, iou: 0.229, recall: 0.352, acc: 0.481
+Val 34, loss: 1.491, iou: 0.291, recall: 0.411, acc: 0.532
+Time: 22 s
+Train 35, loss: 1.569, iou: 0.247, recall: 0.368, acc: 0.505
+Val 35, loss: 1.470, iou: 0.306, recall: 0.444, acc: 0.556
+Time: 22 s
+Train 36, loss: 1.569, iou: 0.244, recall: 0.363, acc: 0.509
+Val 36, loss: 1.452, iou: 0.292, recall: 0.438, acc: 0.538
+Time: 22 s
+Train 37, loss: 1.542, iou: 0.253, recall: 0.378, acc: 0.508
+Val 37, loss: 1.472, iou: 0.271, recall: 0.401, acc: 0.526
+Time: 23 s
+Train 38, loss: 1.623, iou: 0.229, recall: 0.342, acc: 0.488
+Val 38, loss: 1.416, iou: 0.277, recall: 0.402, acc: 0.550
+Time: 22 s
+Train 39, loss: 1.533, iou: 0.244, recall: 0.365, acc: 0.512
+Val 39, loss: 1.445, iou: 0.289, recall: 0.432, acc: 0.544
+Time: 22 s
+Train 40, loss: 1.596, iou: 0.229, recall: 0.350, acc: 0.502
+Val 40, loss: 1.491, iou: 0.276, recall: 0.413, acc: 0.542
+Time: 22 s
+Train 41, loss: 1.556, iou: 0.236, recall: 0.355, acc: 0.490
+Val 41, loss: 1.413, iou: 0.337, recall: 0.459, acc: 0.574
+Time: 22 s
+Better model!
+Train 42, loss: 1.491, iou: 0.260, recall: 0.378, acc: 0.516
+Val 42, loss: 1.484, iou: 0.278, recall: 0.415, acc: 0.520
+Time: 22 s
+Train 43, loss: 1.522, iou: 0.263, recall: 0.393, acc: 0.518
+Val 43, loss: 1.368, iou: 0.342, recall: 0.471, acc: 0.554
+Time: 23 s
+Train 44, loss: 1.533, iou: 0.250, recall: 0.376, acc: 0.514
+Val 44, loss: 1.379, iou: 0.327, recall: 0.506, acc: 0.584
+Time: 22 s
+Better model!
+Train 45, loss: 1.466, iou: 0.270, recall: 0.398, acc: 0.545
+Val 45, loss: 1.494, iou: 0.314, recall: 0.454, acc: 0.528
+Time: 22 s
+Train 46, loss: 1.463, iou: 0.267, recall: 0.391, acc: 0.520
+Val 46, loss: 1.443, iou: 0.302, recall: 0.456, acc: 0.552
+Time: 22 s
+Train 47, loss: 1.422, iou: 0.288, recall: 0.423, acc: 0.548
+Val 47, loss: 1.354, iou: 0.313, recall: 0.448, acc: 0.574
+Time: 22 s
+Train 48, loss: 1.453, iou: 0.288, recall: 0.412, acc: 0.550
+Val 48, loss: 1.346, iou: 0.350, recall: 0.495, acc: 0.594
+Time: 23 s
+Better model!
+Train 49, loss: 1.440, iou: 0.288, recall: 0.426, acc: 0.535
+Val 49, loss: 1.306, iou: 0.331, recall: 0.478, acc: 0.590
+Time: 22 s
+Train 50, loss: 1.381, iou: 0.307, recall: 0.442, acc: 0.555
+Val 50, loss: 1.285, iou: 0.399, recall: 0.523, acc: 0.618
+Time: 22 s
+Better model!
+Train 51, loss: 1.373, iou: 0.295, recall: 0.426, acc: 0.554
+Val 51, loss: 1.329, iou: 0.315, recall: 0.466, acc: 0.566
+Time: 22 s
+Train 52, loss: 1.386, iou: 0.305, recall: 0.438, acc: 0.566
+Val 52, loss: 1.315, iou: 0.319, recall: 0.453, acc: 0.562
+Time: 22 s
+Train 53, loss: 1.312, iou: 0.334, recall: 0.463, acc: 0.588
+Val 53, loss: 1.276, iou: 0.346, recall: 0.488, acc: 0.600
+Time: 22 s
+Train 54, loss: 1.377, iou: 0.312, recall: 0.448, acc: 0.565
+Val 54, loss: 1.189, iou: 0.381, recall: 0.535, acc: 0.632
+Time: 22 s
+Better model!
+Train 55, loss: 1.331, iou: 0.309, recall: 0.436, acc: 0.583
+Val 55, loss: 1.295, iou: 0.360, recall: 0.530, acc: 0.602
+Time: 23 s
+Train 56, loss: 1.330, iou: 0.320, recall: 0.458, acc: 0.556
+Val 56, loss: 1.317, iou: 0.343, recall: 0.495, acc: 0.602
+Time: 22 s
+Train 57, loss: 1.305, iou: 0.344, recall: 0.484, acc: 0.584
+Val 57, loss: 1.297, iou: 0.371, recall: 0.563, acc: 0.606
+Time: 23 s
+Train 58, loss: 1.261, iou: 0.363, recall: 0.506, acc: 0.602
+Val 58, loss: 1.267, iou: 0.369, recall: 0.526, acc: 0.608
+Time: 22 s
+Train 59, loss: 1.284, iou: 0.321, recall: 0.458, acc: 0.563
+Val 59, loss: 1.190, iou: 0.390, recall: 0.564, acc: 0.638
+Time: 23 s
+Better model!
+Train 60, loss: 1.300, iou: 0.356, recall: 0.506, acc: 0.586
+Val 60, loss: 1.223, iou: 0.381, recall: 0.545, acc: 0.622
+Time: 23 s
+Train 61, loss: 1.281, iou: 0.338, recall: 0.485, acc: 0.574
+Val 61, loss: 1.285, iou: 0.360, recall: 0.513, acc: 0.606
+Time: 22 s
+Train 62, loss: 1.345, iou: 0.304, recall: 0.430, acc: 0.556
+Val 62, loss: 1.227, iou: 0.390, recall: 0.540, acc: 0.634
+Time: 23 s
+Train 63, loss: 1.242, iou: 0.332, recall: 0.470, acc: 0.584
+Val 63, loss: 1.251, iou: 0.373, recall: 0.511, acc: 0.622
+Time: 22 s
+Train 64, loss: 1.260, iou: 0.344, recall: 0.483, acc: 0.591
+Val 64, loss: 1.245, iou: 0.397, recall: 0.553, acc: 0.612
+Time: 22 s
+Train 65, loss: 1.236, iou: 0.358, recall: 0.508, acc: 0.585
+Val 65, loss: 1.219, iou: 0.436, recall: 0.594, acc: 0.642
+Time: 22 s
+Better model!
+Train 66, loss: 1.189, iou: 0.355, recall: 0.491, acc: 0.619
+Val 66, loss: 1.107, iou: 0.403, recall: 0.559, acc: 0.648
+Time: 22 s
+Better model!
+Train 67, loss: 1.137, iou: 0.374, recall: 0.515, acc: 0.635
+Val 67, loss: 1.221, iou: 0.458, recall: 0.602, acc: 0.662
+Time: 22 s
+Better model!
+Train 68, loss: 1.138, iou: 0.405, recall: 0.560, acc: 0.628
+Val 68, loss: 1.186, iou: 0.413, recall: 0.537, acc: 0.634
+Time: 22 s
+Train 69, loss: 1.170, iou: 0.366, recall: 0.506, acc: 0.611
+Val 69, loss: 1.216, iou: 0.427, recall: 0.586, acc: 0.660
+Time: 23 s
+Train 70, loss: 1.153, iou: 0.370, recall: 0.503, acc: 0.609
+Val 70, loss: 1.143, iou: 0.428, recall: 0.593, acc: 0.642
+Time: 22 s
+Train 71, loss: 1.138, iou: 0.407, recall: 0.552, acc: 0.628
+Val 71, loss: 1.224, iou: 0.432, recall: 0.596, acc: 0.644
+Time: 23 s
+Train 72, loss: 1.143, iou: 0.417, recall: 0.565, acc: 0.645
+Val 72, loss: 1.132, iou: 0.413, recall: 0.587, acc: 0.648
+Time: 23 s
+Train 73, loss: 1.101, iou: 0.420, recall: 0.568, acc: 0.636
+Val 73, loss: 1.121, iou: 0.418, recall: 0.573, acc: 0.648
+Time: 22 s
+Train 74, loss: 1.168, iou: 0.394, recall: 0.540, acc: 0.616
+Val 74, loss: 1.139, iou: 0.437, recall: 0.594, acc: 0.658
+Time: 22 s
+Train 75, loss: 1.116, iou: 0.385, recall: 0.528, acc: 0.628
+Val 75, loss: 1.262, iou: 0.411, recall: 0.544, acc: 0.652
+Time: 22 s
+Train 76, loss: 1.116, iou: 0.388, recall: 0.533, acc: 0.630
+Val 76, loss: 1.218, iou: 0.390, recall: 0.518, acc: 0.634
+Time: 23 s
+Train 77, loss: 1.057, iou: 0.433, recall: 0.576, acc: 0.654
+Val 77, loss: 1.118, iou: 0.429, recall: 0.563, acc: 0.656
+Time: 22 s
+Train 78, loss: 1.107, iou: 0.415, recall: 0.570, acc: 0.632
+Val 78, loss: 1.092, iou: 0.448, recall: 0.593, acc: 0.684
+Time: 22 s
+Better model!
+Train 79, loss: 1.090, iou: 0.438, recall: 0.583, acc: 0.662
+Val 79, loss: 1.119, iou: 0.449, recall: 0.600, acc: 0.662
+Time: 22 s
+Train 80, loss: 1.074, iou: 0.443, recall: 0.598, acc: 0.649
+Val 80, loss: 1.189, iou: 0.455, recall: 0.613, acc: 0.658
+Time: 23 s
+Train 81, loss: 1.087, iou: 0.406, recall: 0.554, acc: 0.654
+Val 81, loss: 1.139, iou: 0.424, recall: 0.578, acc: 0.660
+Time: 22 s
+Train 82, loss: 1.015, iou: 0.475, recall: 0.615, acc: 0.680
+Val 82, loss: 1.128, iou: 0.428, recall: 0.566, acc: 0.650
+Time: 22 s
+Train 83, loss: 1.006, iou: 0.402, recall: 0.544, acc: 0.655
+Val 83, loss: 1.077, iou: 0.467, recall: 0.615, acc: 0.692
+Time: 22 s
+Better model!
+Train 84, loss: 1.051, iou: 0.401, recall: 0.542, acc: 0.657
+Val 84, loss: 1.130, iou: 0.422, recall: 0.567, acc: 0.664
+Time: 22 s
+Train 85, loss: 1.033, iou: 0.454, recall: 0.597, acc: 0.669
+Val 85, loss: 1.463, iou: 0.368, recall: 0.499, acc: 0.574
+Time: 22 s
+Train 86, loss: 1.021, iou: 0.457, recall: 0.597, acc: 0.688
+Val 86, loss: 1.057, iou: 0.458, recall: 0.629, acc: 0.680
+Time: 22 s
+Train 87, loss: 1.047, iou: 0.444, recall: 0.594, acc: 0.663
+Val 87, loss: 1.053, iou: 0.469, recall: 0.627, acc: 0.686
+Time: 23 s
+Train 88, loss: 1.012, iou: 0.460, recall: 0.610, acc: 0.674
+Val 88, loss: 1.263, iou: 0.397, recall: 0.524, acc: 0.630
+Time: 23 s
+Train 89, loss: 0.981, iou: 0.435, recall: 0.572, acc: 0.680
+Val 89, loss: 1.114, iou: 0.447, recall: 0.583, acc: 0.676
+Time: 23 s
+Train 90, loss: 1.018, iou: 0.442, recall: 0.597, acc: 0.669
+Val 90, loss: 1.179, iou: 0.466, recall: 0.653, acc: 0.662
+Time: 22 s
+Train 91, loss: 0.918, iou: 0.519, recall: 0.654, acc: 0.709
+Val 91, loss: 1.035, iou: 0.460, recall: 0.600, acc: 0.690
+Time: 22 s
+Train 92, loss: 0.987, iou: 0.436, recall: 0.581, acc: 0.660
+Val 92, loss: 1.077, iou: 0.443, recall: 0.588, acc: 0.658
+Time: 22 s
+Train 93, loss: 0.965, iou: 0.484, recall: 0.642, acc: 0.685
+Val 93, loss: 1.083, iou: 0.461, recall: 0.602, acc: 0.676
+Time: 22 s
+Train 94, loss: 0.902, iou: 0.501, recall: 0.635, acc: 0.698
+Val 94, loss: 1.208, iou: 0.441, recall: 0.573, acc: 0.670
+Time: 22 s
+Train 95, loss: 0.942, iou: 0.458, recall: 0.618, acc: 0.686
+Val 95, loss: 1.047, iou: 0.454, recall: 0.599, acc: 0.680
+Time: 22 s
+Train 96, loss: 0.968, iou: 0.498, recall: 0.647, acc: 0.693
+Val 96, loss: 1.047, iou: 0.456, recall: 0.590, acc: 0.690
+Time: 22 s
+Train 97, loss: 0.998, iou: 0.460, recall: 0.598, acc: 0.683
+Val 97, loss: 1.117, iou: 0.461, recall: 0.603, acc: 0.682
+Time: 22 s
+Train 98, loss: 0.969, iou: 0.491, recall: 0.645, acc: 0.698
+Val 98, loss: 1.091, iou: 0.513, recall: 0.659, acc: 0.710
+Time: 22 s
+Better model!
+Train 99, loss: 0.923, iou: 0.470, recall: 0.620, acc: 0.697
+Val 99, loss: 1.093, iou: 0.480, recall: 0.638, acc: 0.712
+Time: 22 s
+Better model!
+Train 100, loss: 0.878, iou: 0.516, recall: 0.652, acc: 0.707
+Val 100, loss: 0.989, iou: 0.471, recall: 0.627, acc: 0.714
+Time: 22 s
+Better model!
+Train 101, loss: 0.933, iou: 0.495, recall: 0.633, acc: 0.709
+Val 101, loss: 1.014, iou: 0.497, recall: 0.647, acc: 0.708
+Time: 22 s
+Train 102, loss: 0.875, iou: 0.509, recall: 0.664, acc: 0.717
+Val 102, loss: 0.990, iou: 0.500, recall: 0.664, acc: 0.720
+Time: 22 s
+Better model!
+Train 103, loss: 0.889, iou: 0.506, recall: 0.652, acc: 0.720
+Val 103, loss: 0.979, iou: 0.501, recall: 0.616, acc: 0.708
+Time: 22 s
+Train 104, loss: 0.858, iou: 0.524, recall: 0.665, acc: 0.724
+Val 104, loss: 1.103, iou: 0.452, recall: 0.586, acc: 0.688
+Time: 22 s
+Train 105, loss: 0.827, iou: 0.469, recall: 0.623, acc: 0.707
+Val 105, loss: 1.073, iou: 0.493, recall: 0.658, acc: 0.696
+Time: 22 s
+Train 106, loss: 1.007, iou: 0.488, recall: 0.640, acc: 0.679
+Val 106, loss: 1.090, iou: 0.448, recall: 0.587, acc: 0.688
+Time: 22 s
+Train 107, loss: 0.892, iou: 0.496, recall: 0.647, acc: 0.712
+Val 107, loss: 1.045, iou: 0.465, recall: 0.613, acc: 0.706
+Time: 22 s
+Train 108, loss: 0.867, iou: 0.527, recall: 0.660, acc: 0.720
+Val 108, loss: 1.134, iou: 0.468, recall: 0.640, acc: 0.698
+Time: 22 s
+Train 109, loss: 0.880, iou: 0.495, recall: 0.643, acc: 0.711
+Val 109, loss: 1.071, iou: 0.483, recall: 0.629, acc: 0.706
+Time: 23 s
+Train 110, loss: 0.843, iou: 0.502, recall: 0.655, acc: 0.709
+Val 110, loss: 1.066, iou: 0.441, recall: 0.571, acc: 0.694
+Time: 22 s
+Train 111, loss: 0.872, iou: 0.512, recall: 0.658, acc: 0.726
+Val 111, loss: 1.066, iou: 0.467, recall: 0.602, acc: 0.722
+Time: 22 s
+Better model!
+Train 112, loss: 0.845, iou: 0.526, recall: 0.663, acc: 0.720
+Val 112, loss: 0.966, iou: 0.493, recall: 0.635, acc: 0.730
+Time: 22 s
+Better model!
+Train 113, loss: 0.829, iou: 0.529, recall: 0.677, acc: 0.730
+Val 113, loss: 0.928, iou: 0.509, recall: 0.647, acc: 0.738
+Time: 23 s
+Better model!
+Train 114, loss: 0.878, iou: 0.494, recall: 0.641, acc: 0.720
+Val 114, loss: 0.989, iou: 0.506, recall: 0.647, acc: 0.720
+Time: 22 s
+Train 115, loss: 0.844, iou: 0.530, recall: 0.667, acc: 0.720
+Val 115, loss: 0.959, iou: 0.505, recall: 0.630, acc: 0.726
+Time: 22 s
+Train 116, loss: 0.807, iou: 0.580, recall: 0.713, acc: 0.743
+Val 116, loss: 0.918, iou: 0.537, recall: 0.688, acc: 0.758
+Time: 22 s
+Better model!
+Train 117, loss: 0.798, iou: 0.568, recall: 0.700, acc: 0.747
+Val 117, loss: 0.954, iou: 0.531, recall: 0.689, acc: 0.746
+Time: 22 s
+Train 118, loss: 0.785, iou: 0.555, recall: 0.692, acc: 0.749
+Val 118, loss: 0.962, iou: 0.508, recall: 0.650, acc: 0.734
+Time: 22 s
+Train 119, loss: 0.736, iou: 0.509, recall: 0.650, acc: 0.747
+Val 119, loss: 1.013, iou: 0.483, recall: 0.656, acc: 0.728
+Time: 22 s
+Train 120, loss: 0.809, iou: 0.534, recall: 0.670, acc: 0.720
+Val 120, loss: 1.083, iou: 0.481, recall: 0.606, acc: 0.702
+Time: 22 s
+Train 121, loss: 0.726, iou: 0.577, recall: 0.708, acc: 0.767
+Val 121, loss: 1.011, iou: 0.481, recall: 0.623, acc: 0.704
+Time: 22 s
+Train 122, loss: 0.767, iou: 0.567, recall: 0.709, acc: 0.755
+Val 122, loss: 1.024, iou: 0.516, recall: 0.663, acc: 0.718
+Time: 22 s
+Train 123, loss: 0.714, iou: 0.557, recall: 0.690, acc: 0.762
+Val 123, loss: 1.008, iou: 0.545, recall: 0.682, acc: 0.752
+Time: 22 s
+Train 124, loss: 0.764, iou: 0.559, recall: 0.696, acc: 0.761
+Val 124, loss: 1.023, iou: 0.549, recall: 0.694, acc: 0.752
+Time: 22 s
+Train 125, loss: 0.812, iou: 0.550, recall: 0.688, acc: 0.749
+Val 125, loss: 0.993, iou: 0.519, recall: 0.648, acc: 0.722
+Time: 23 s
+Train 126, loss: 0.781, iou: 0.546, recall: 0.698, acc: 0.747
+Val 126, loss: 1.224, iou: 0.467, recall: 0.617, acc: 0.700
+Time: 22 s
+Train 127, loss: 0.710, iou: 0.585, recall: 0.719, acc: 0.778
+Val 127, loss: 1.039, iou: 0.515, recall: 0.624, acc: 0.730
+Time: 22 s
+Train 128, loss: 0.708, iou: 0.600, recall: 0.730, acc: 0.772
+Val 128, loss: 1.000, iou: 0.525, recall: 0.651, acc: 0.742
+Time: 23 s
+Train 129, loss: 0.733, iou: 0.581, recall: 0.720, acc: 0.773
+Val 129, loss: 1.000, iou: 0.536, recall: 0.672, acc: 0.736
+Time: 22 s
+Train 130, loss: 0.767, iou: 0.573, recall: 0.701, acc: 0.759
+Val 130, loss: 0.980, iou: 0.525, recall: 0.663, acc: 0.734
+Time: 22 s
+Train 131, loss: 0.702, iou: 0.598, recall: 0.742, acc: 0.777
+Val 131, loss: 1.030, iou: 0.539, recall: 0.670, acc: 0.732
+Time: 22 s
+Train 132, loss: 0.668, iou: 0.589, recall: 0.717, acc: 0.775
+Val 132, loss: 1.061, iou: 0.505, recall: 0.634, acc: 0.742
+Time: 22 s
+Train 133, loss: 0.721, iou: 0.579, recall: 0.719, acc: 0.764
+Val 133, loss: 1.002, iou: 0.544, recall: 0.725, acc: 0.736
+Time: 22 s
+Train 134, loss: 0.649, iou: 0.626, recall: 0.758, acc: 0.801
+Val 134, loss: 0.970, iou: 0.549, recall: 0.672, acc: 0.760
+Time: 22 s
+Better model!
+Train 135, loss: 0.707, iou: 0.574, recall: 0.717, acc: 0.769
+Val 135, loss: 0.962, iou: 0.521, recall: 0.653, acc: 0.754
+Time: 22 s
+Train 136, loss: 0.728, iou: 0.604, recall: 0.743, acc: 0.775
+Val 136, loss: 1.239, iou: 0.466, recall: 0.600, acc: 0.672
+Time: 22 s
+Train 137, loss: 0.691, iou: 0.578, recall: 0.704, acc: 0.773
+Val 137, loss: 1.158, iou: 0.505, recall: 0.636, acc: 0.704
+Time: 22 s
+Train 138, loss: 0.716, iou: 0.568, recall: 0.722, acc: 0.765
+Val 138, loss: 1.036, iou: 0.518, recall: 0.654, acc: 0.730
+Time: 22 s
+Train 139, loss: 0.670, iou: 0.574, recall: 0.704, acc: 0.780
+Val 139, loss: 1.090, iou: 0.505, recall: 0.627, acc: 0.718
+Time: 22 s
+Train 140, loss: 0.732, iou: 0.584, recall: 0.718, acc: 0.757
+Val 140, loss: 1.128, iou: 0.490, recall: 0.624, acc: 0.716
+Time: 22 s
+Train 141, loss: 0.679, iou: 0.598, recall: 0.729, acc: 0.774
+Val 141, loss: 1.169, iou: 0.552, recall: 0.694, acc: 0.742
+Time: 22 s
+Train 142, loss: 0.661, iou: 0.608, recall: 0.736, acc: 0.796
+Val 142, loss: 1.101, iou: 0.495, recall: 0.626, acc: 0.722
+Time: 22 s
+Train 143, loss: 0.697, iou: 0.564, recall: 0.692, acc: 0.779
+Val 143, loss: 0.917, iou: 0.565, recall: 0.715, acc: 0.780
+Time: 22 s
+Better model!
+Train 144, loss: 0.626, iou: 0.613, recall: 0.754, acc: 0.793
+Val 144, loss: 1.029, iou: 0.523, recall: 0.649, acc: 0.752
+Time: 23 s
+Train 145, loss: 0.680, iou: 0.612, recall: 0.766, acc: 0.782
+Val 145, loss: 1.126, iou: 0.498, recall: 0.617, acc: 0.722
+Time: 22 s
+Train 146, loss: 0.700, iou: 0.602, recall: 0.728, acc: 0.774
+Val 146, loss: 1.170, iou: 0.502, recall: 0.628, acc: 0.722
+Time: 22 s
+Train 147, loss: 0.637, iou: 0.640, recall: 0.768, acc: 0.796
+Val 147, loss: 1.012, iou: 0.548, recall: 0.691, acc: 0.746
+Time: 22 s
+Train 148, loss: 0.648, iou: 0.610, recall: 0.736, acc: 0.788
+Val 148, loss: 0.986, iou: 0.561, recall: 0.711, acc: 0.746
+Time: 22 s
+Train 149, loss: 0.662, iou: 0.626, recall: 0.748, acc: 0.794
+Val 149, loss: 1.060, iou: 0.530, recall: 0.639, acc: 0.746
+Time: 22 s
+Train 150, loss: 0.638, iou: 0.628, recall: 0.754, acc: 0.798
+Val 150, loss: 0.912, iou: 0.564, recall: 0.707, acc: 0.768
+Time: 23 s
+Train 151, loss: 0.660, iou: 0.617, recall: 0.756, acc: 0.773
+Val 151, loss: 1.052, iou: 0.508, recall: 0.618, acc: 0.734
+Time: 22 s
+Train 152, loss: 0.630, iou: 0.607, recall: 0.741, acc: 0.796
+Val 152, loss: 1.053, iou: 0.529, recall: 0.651, acc: 0.748
+Time: 22 s
+Train 153, loss: 0.652, iou: 0.604, recall: 0.737, acc: 0.785
+Val 153, loss: 1.159, iou: 0.501, recall: 0.622, acc: 0.724
+Time: 23 s
+Train 154, loss: 0.631, iou: 0.632, recall: 0.752, acc: 0.802
+Val 154, loss: 0.981, iou: 0.528, recall: 0.672, acc: 0.758
+Time: 22 s
+Train 155, loss: 0.669, iou: 0.629, recall: 0.766, acc: 0.782
+Val 155, loss: 0.989, iou: 0.518, recall: 0.644, acc: 0.744
+Time: 23 s
+Train 156, loss: 0.625, iou: 0.651, recall: 0.775, acc: 0.797
+Val 156, loss: 1.025, iou: 0.522, recall: 0.654, acc: 0.734
+Time: 22 s
+Train 157, loss: 0.616, iou: 0.643, recall: 0.762, acc: 0.812
+Val 157, loss: 1.006, iou: 0.549, recall: 0.656, acc: 0.744
+Time: 22 s
+Train 158, loss: 0.631, iou: 0.628, recall: 0.759, acc: 0.788
+Val 158, loss: 0.950, iou: 0.578, recall: 0.692, acc: 0.772
+Time: 22 s
+Train 159, loss: 0.632, iou: 0.670, recall: 0.787, acc: 0.807
+Val 159, loss: 1.139, iou: 0.495, recall: 0.630, acc: 0.728
+Time: 22 s
+Train 160, loss: 0.580, iou: 0.643, recall: 0.766, acc: 0.825
+Val 160, loss: 1.051, iou: 0.515, recall: 0.649, acc: 0.736
+Time: 22 s
+Train 161, loss: 0.535, iou: 0.667, recall: 0.799, acc: 0.833
+Val 161, loss: 1.086, iou: 0.525, recall: 0.662, acc: 0.734
+Time: 22 s
+Train 162, loss: 0.568, iou: 0.646, recall: 0.770, acc: 0.816
+Val 162, loss: 1.043, iou: 0.530, recall: 0.660, acc: 0.738
+Time: 23 s
+Train 163, loss: 0.581, iou: 0.656, recall: 0.767, acc: 0.816
+Val 163, loss: 1.001, iou: 0.537, recall: 0.669, acc: 0.762
+Time: 23 s
+Train 164, loss: 0.606, iou: 0.657, recall: 0.777, acc: 0.814
+Val 164, loss: 1.061, iou: 0.530, recall: 0.684, acc: 0.732
+Time: 22 s
+Train 165, loss: 0.579, iou: 0.630, recall: 0.761, acc: 0.802
+Val 165, loss: 0.939, iou: 0.576, recall: 0.703, acc: 0.782
+Time: 23 s
+Better model!
+Train 166, loss: 0.617, iou: 0.603, recall: 0.742, acc: 0.803
+Val 166, loss: 0.993, iou: 0.583, recall: 0.683, acc: 0.766
+Time: 22 s
+Train 167, loss: 0.626, iou: 0.629, recall: 0.751, acc: 0.788
+Val 167, loss: 1.072, iou: 0.555, recall: 0.685, acc: 0.736
+Time: 22 s
+Train 168, loss: 0.556, iou: 0.624, recall: 0.756, acc: 0.813
+Val 168, loss: 1.090, iou: 0.560, recall: 0.670, acc: 0.750
+Time: 22 s
+Train 169, loss: 0.594, iou: 0.649, recall: 0.786, acc: 0.808
+Val 169, loss: 1.142, iou: 0.551, recall: 0.671, acc: 0.732
+Time: 22 s
+Train 170, loss: 0.611, iou: 0.641, recall: 0.771, acc: 0.796
+Val 170, loss: 0.998, iou: 0.577, recall: 0.691, acc: 0.760
+Time: 22 s
+Train 171, loss: 0.613, iou: 0.651, recall: 0.763, acc: 0.814
+Val 171, loss: 1.035, iou: 0.583, recall: 0.716, acc: 0.768
+Time: 22 s
+Train 172, loss: 0.549, iou: 0.653, recall: 0.784, acc: 0.826
+Val 172, loss: 0.992, iou: 0.600, recall: 0.728, acc: 0.780
+Time: 22 s
+Train 173, loss: 0.656, iou: 0.632, recall: 0.771, acc: 0.802
+Val 173, loss: 0.955, iou: 0.564, recall: 0.710, acc: 0.768
+Time: 22 s
+Train 174, loss: 0.535, iou: 0.686, recall: 0.802, acc: 0.825
+Val 174, loss: 1.041, iou: 0.565, recall: 0.689, acc: 0.760
+Time: 23 s
+Train 175, loss: 0.630, iou: 0.658, recall: 0.789, acc: 0.809
+Val 175, loss: 1.032, iou: 0.578, recall: 0.696, acc: 0.774
+Time: 22 s
+Train 176, loss: 0.577, iou: 0.677, recall: 0.791, acc: 0.819
+Val 176, loss: 1.111, iou: 0.578, recall: 0.724, acc: 0.758
+Time: 22 s
+Train 177, loss: 0.599, iou: 0.670, recall: 0.798, acc: 0.812
+Val 177, loss: 1.058, iou: 0.561, recall: 0.687, acc: 0.760
+Time: 22 s
+Train 178, loss: 0.619, iou: 0.672, recall: 0.802, acc: 0.804
+Val 178, loss: 1.149, iou: 0.538, recall: 0.676, acc: 0.760
+Time: 22 s
+Train 179, loss: 0.563, iou: 0.680, recall: 0.781, acc: 0.816
+Val 179, loss: 1.079, iou: 0.555, recall: 0.676, acc: 0.758
+Time: 22 s
+Train 180, loss: 0.550, iou: 0.706, recall: 0.815, acc: 0.821
+Val 180, loss: 1.053, iou: 0.563, recall: 0.713, acc: 0.762
+Time: 23 s
+Train 181, loss: 0.512, iou: 0.684, recall: 0.810, acc: 0.823
+Val 181, loss: 1.014, iou: 0.579, recall: 0.703, acc: 0.776
+Time: 22 s
+Train 182, loss: 0.558, iou: 0.654, recall: 0.786, acc: 0.812
+Val 182, loss: 0.967, iou: 0.565, recall: 0.685, acc: 0.776
+Time: 22 s
+Train 183, loss: 0.554, iou: 0.704, recall: 0.799, acc: 0.833
+Val 183, loss: 1.081, iou: 0.540, recall: 0.661, acc: 0.756
+Time: 23 s
+Train 184, loss: 0.554, iou: 0.673, recall: 0.787, acc: 0.822
+Val 184, loss: 0.983, iou: 0.575, recall: 0.701, acc: 0.764
+Time: 22 s
+Train 185, loss: 0.521, iou: 0.694, recall: 0.794, acc: 0.843
+Val 185, loss: 1.112, iou: 0.547, recall: 0.663, acc: 0.770
+Time: 22 s
+Train 186, loss: 0.523, iou: 0.663, recall: 0.769, acc: 0.826
+Val 186, loss: 1.094, iou: 0.551, recall: 0.674, acc: 0.774
+Time: 22 s
+Train 187, loss: 0.552, iou: 0.679, recall: 0.794, acc: 0.827
+Val 187, loss: 1.010, iou: 0.569, recall: 0.716, acc: 0.794
+Time: 23 s
+Better model!
+Train 188, loss: 0.540, iou: 0.671, recall: 0.790, acc: 0.821
+Val 188, loss: 1.272, iou: 0.498, recall: 0.640, acc: 0.726
+Time: 22 s
+Train 189, loss: 0.558, iou: 0.680, recall: 0.788, acc: 0.821
+Val 189, loss: 1.035, iou: 0.542, recall: 0.681, acc: 0.770
+Time: 23 s
+Train 190, loss: 0.571, iou: 0.659, recall: 0.784, acc: 0.821
+Val 190, loss: 1.284, iou: 0.508, recall: 0.661, acc: 0.736
+Time: 23 s
+Train 191, loss: 0.566, iou: 0.669, recall: 0.796, acc: 0.824
+Val 191, loss: 1.199, iou: 0.556, recall: 0.670, acc: 0.746
+Time: 22 s
+Train 192, loss: 0.570, iou: 0.651, recall: 0.776, acc: 0.816
+Val 192, loss: 1.036, iou: 0.558, recall: 0.715, acc: 0.756
+Time: 22 s
+Train 193, loss: 0.586, iou: 0.642, recall: 0.770, acc: 0.817
+Val 193, loss: 1.053, iou: 0.565, recall: 0.683, acc: 0.762
+Time: 22 s
+Train 194, loss: 0.569, iou: 0.686, recall: 0.798, acc: 0.826
+Val 194, loss: 1.044, iou: 0.555, recall: 0.684, acc: 0.762
+Time: 23 s
+Train 195, loss: 0.568, iou: 0.663, recall: 0.794, acc: 0.812
+Val 195, loss: 1.072, iou: 0.553, recall: 0.694, acc: 0.756
+Time: 22 s
+Train 196, loss: 0.563, iou: 0.671, recall: 0.789, acc: 0.821
+Val 196, loss: 1.224, iou: 0.543, recall: 0.688, acc: 0.746
+Time: 22 s
+Train 197, loss: 0.542, iou: 0.642, recall: 0.759, acc: 0.821
+Val 197, loss: 1.075, iou: 0.557, recall: 0.694, acc: 0.752
+Time: 22 s
+Train 198, loss: 0.495, iou: 0.709, recall: 0.802, acc: 0.842
+Val 198, loss: 1.115, iou: 0.560, recall: 0.689, acc: 0.766
+Time: 22 s
+Train 199, loss: 0.504, iou: 0.716, recall: 0.831, acc: 0.837
+Val 199, loss: 1.008, iou: 0.576, recall: 0.716, acc: 0.772
+Time: 22 s
+Train 200, loss: 0.501, iou: 0.709, recall: 0.821, acc: 0.847
+Val 200, loss: 0.999, iou: 0.546, recall: 0.681, acc: 0.768
+Time: 23 s
+Train 201, loss: 0.603, iou: 0.619, recall: 0.737, acc: 0.803
+Val 201, loss: 1.048, iou: 0.563, recall: 0.700, acc: 0.750
+Time: 23 s
+Train 202, loss: 0.507, iou: 0.703, recall: 0.817, acc: 0.839
+Val 202, loss: 0.946, iou: 0.547, recall: 0.680, acc: 0.748
+Time: 22 s
+Train 203, loss: 0.527, iou: 0.702, recall: 0.815, acc: 0.830
+Val 203, loss: 1.089, iou: 0.562, recall: 0.713, acc: 0.748
+Time: 23 s
+Train 204, loss: 0.554, iou: 0.695, recall: 0.811, acc: 0.834
+Val 204, loss: 1.109, iou: 0.544, recall: 0.678, acc: 0.756
+Time: 22 s
+Train 205, loss: 0.493, iou: 0.712, recall: 0.832, acc: 0.847
+Val 205, loss: 1.057, iou: 0.568, recall: 0.696, acc: 0.770
+Time: 22 s
+Train 206, loss: 0.468, iou: 0.732, recall: 0.841, acc: 0.860
+Val 206, loss: 1.074, iou: 0.536, recall: 0.695, acc: 0.752
+Time: 22 s
+Train 207, loss: 0.503, iou: 0.702, recall: 0.808, acc: 0.846
+Val 207, loss: 1.038, iou: 0.586, recall: 0.729, acc: 0.776
+Time: 22 s
+Train 208, loss: 0.480, iou: 0.733, recall: 0.831, acc: 0.849
+Val 208, loss: 1.040, iou: 0.526, recall: 0.657, acc: 0.742
+Time: 22 s
+Train 209, loss: 0.458, iou: 0.707, recall: 0.823, acc: 0.858
+Val 209, loss: 1.135, iou: 0.588, recall: 0.692, acc: 0.772
+Time: 22 s
+Train 210, loss: 0.482, iou: 0.680, recall: 0.792, acc: 0.849
+Val 210, loss: 0.984, iou: 0.567, recall: 0.708, acc: 0.768
+Time: 22 s
+Train 211, loss: 0.489, iou: 0.709, recall: 0.819, acc: 0.843
+Val 211, loss: 1.269, iou: 0.521, recall: 0.675, acc: 0.736
+Time: 22 s
+Train 212, loss: 0.479, iou: 0.708, recall: 0.822, acc: 0.848
+Val 212, loss: 0.921, iou: 0.567, recall: 0.711, acc: 0.772
+Time: 22 s
+Train 213, loss: 0.482, iou: 0.721, recall: 0.830, acc: 0.852
+Val 213, loss: 0.959, iou: 0.550, recall: 0.712, acc: 0.752
+Time: 22 s
+Train 214, loss: 0.502, iou: 0.681, recall: 0.803, acc: 0.834
+Val 214, loss: 1.065, iou: 0.577, recall: 0.717, acc: 0.782
+Time: 22 s
+Train 215, loss: 0.519, iou: 0.704, recall: 0.817, acc: 0.839
+Val 215, loss: 0.953, iou: 0.604, recall: 0.732, acc: 0.800
+Time: 23 s
+Better model!
+Train 216, loss: 0.479, iou: 0.726, recall: 0.831, acc: 0.839
+Val 216, loss: 1.005, iou: 0.591, recall: 0.730, acc: 0.794
+Time: 22 s
+Train 217, loss: 0.494, iou: 0.662, recall: 0.791, acc: 0.833
+Val 217, loss: 0.958, iou: 0.582, recall: 0.680, acc: 0.784
+Time: 22 s
+Train 218, loss: 0.440, iou: 0.728, recall: 0.832, acc: 0.858
+Val 218, loss: 1.053, iou: 0.588, recall: 0.732, acc: 0.784
+Time: 22 s
+Train 219, loss: 0.529, iou: 0.732, recall: 0.838, acc: 0.836
+Val 219, loss: 0.946, iou: 0.609, recall: 0.742, acc: 0.798
+Time: 23 s
+Train 220, loss: 0.506, iou: 0.691, recall: 0.807, acc: 0.832
+Val 220, loss: 1.047, iou: 0.545, recall: 0.687, acc: 0.770
+Time: 22 s
+Train 221, loss: 0.509, iou: 0.700, recall: 0.821, acc: 0.847
+Val 221, loss: 1.034, iou: 0.563, recall: 0.696, acc: 0.776
+Time: 22 s
+Train 222, loss: 0.516, iou: 0.680, recall: 0.809, acc: 0.833
+Val 222, loss: 1.042, iou: 0.596, recall: 0.703, acc: 0.770
+Time: 22 s
+Train 223, loss: 0.481, iou: 0.722, recall: 0.821, acc: 0.842
+Val 223, loss: 0.928, iou: 0.557, recall: 0.691, acc: 0.760
+Time: 23 s
+Train 224, loss: 0.455, iou: 0.731, recall: 0.835, acc: 0.851
+Val 224, loss: 0.979, iou: 0.591, recall: 0.740, acc: 0.786
+Time: 22 s
+Train 225, loss: 0.526, iou: 0.692, recall: 0.810, acc: 0.835
+Val 225, loss: 1.159, iou: 0.554, recall: 0.638, acc: 0.738
+Time: 22 s
+Train 226, loss: 0.431, iou: 0.731, recall: 0.833, acc: 0.861
+Val 226, loss: 0.891, iou: 0.594, recall: 0.706, acc: 0.786
+Time: 22 s
+Train 227, loss: 0.502, iou: 0.686, recall: 0.817, acc: 0.850
+Val 227, loss: 0.951, iou: 0.604, recall: 0.716, acc: 0.784
+Time: 23 s
+Train 228, loss: 0.522, iou: 0.698, recall: 0.792, acc: 0.851
+Val 228, loss: 1.033, iou: 0.614, recall: 0.729, acc: 0.792
+Time: 22 s
+Train 229, loss: 0.550, iou: 0.662, recall: 0.798, acc: 0.819
+Val 229, loss: 0.929, iou: 0.584, recall: 0.729, acc: 0.774
+Time: 22 s
+Train 230, loss: 0.497, iou: 0.668, recall: 0.794, acc: 0.832
+Val 230, loss: 1.046, iou: 0.619, recall: 0.740, acc: 0.780
+Time: 22 s
+Train 231, loss: 0.415, iou: 0.751, recall: 0.847, acc: 0.870
+Val 231, loss: 0.977, iou: 0.599, recall: 0.736, acc: 0.774
+Time: 22 s
+Train 232, loss: 0.488, iou: 0.718, recall: 0.818, acc: 0.849
+Val 232, loss: 0.999, iou: 0.582, recall: 0.712, acc: 0.768
+Time: 23 s
+Train 233, loss: 0.445, iou: 0.734, recall: 0.839, acc: 0.860
+Val 233, loss: 1.112, iou: 0.575, recall: 0.690, acc: 0.766
+Time: 23 s
+Train 234, loss: 0.394, iou: 0.755, recall: 0.852, acc: 0.883
+Val 234, loss: 0.948, iou: 0.622, recall: 0.747, acc: 0.798
+Time: 22 s
+Train 235, loss: 0.459, iou: 0.731, recall: 0.845, acc: 0.855
+Val 235, loss: 1.087, iou: 0.539, recall: 0.645, acc: 0.736
+Time: 22 s
+Train 236, loss: 0.518, iou: 0.706, recall: 0.813, acc: 0.831
+Val 236, loss: 1.127, iou: 0.588, recall: 0.713, acc: 0.778
+Time: 22 s
+Train 237, loss: 0.423, iou: 0.735, recall: 0.838, acc: 0.861
+Val 237, loss: 0.967, iou: 0.592, recall: 0.737, acc: 0.774
+Time: 23 s
+Train 238, loss: 0.396, iou: 0.721, recall: 0.816, acc: 0.865
+Val 238, loss: 0.964, iou: 0.584, recall: 0.721, acc: 0.794
+Time: 22 s
+Train 239, loss: 0.441, iou: 0.738, recall: 0.828, acc: 0.861
+Val 239, loss: 1.193, iou: 0.564, recall: 0.695, acc: 0.760
+Time: 23 s
+Train 240, loss: 0.497, iou: 0.705, recall: 0.820, acc: 0.857
+Val 240, loss: 0.969, iou: 0.594, recall: 0.705, acc: 0.788
+Time: 23 s
+Train 241, loss: 0.470, iou: 0.727, recall: 0.828, acc: 0.861
+Val 241, loss: 0.972, iou: 0.605, recall: 0.733, acc: 0.802
+Time: 22 s
+Better model!
+Train 242, loss: 0.439, iou: 0.737, recall: 0.853, acc: 0.856
+Val 242, loss: 1.054, iou: 0.575, recall: 0.711, acc: 0.786
+Time: 22 s
+Train 243, loss: 0.463, iou: 0.718, recall: 0.818, acc: 0.854
+Val 243, loss: 1.055, iou: 0.599, recall: 0.705, acc: 0.802
+Time: 23 s
+Better model!
+Train 244, loss: 0.448, iou: 0.713, recall: 0.817, acc: 0.853
+Val 244, loss: 1.100, iou: 0.583, recall: 0.717, acc: 0.768
+Time: 22 s
+Train 245, loss: 0.440, iou: 0.717, recall: 0.825, acc: 0.860
+Val 245, loss: 1.022, iou: 0.595, recall: 0.712, acc: 0.806
+Time: 22 s
+Better model!
+Train 246, loss: 0.438, iou: 0.766, recall: 0.845, acc: 0.871
+Val 246, loss: 1.186, iou: 0.582, recall: 0.712, acc: 0.776
+Time: 22 s
+Train 247, loss: 0.453, iou: 0.703, recall: 0.809, acc: 0.848
+Val 247, loss: 1.136, iou: 0.576, recall: 0.701, acc: 0.752
+Time: 22 s
+Train 248, loss: 0.438, iou: 0.729, recall: 0.845, acc: 0.861
+Val 248, loss: 1.058, iou: 0.607, recall: 0.708, acc: 0.792
+Time: 22 s
+Train 249, loss: 0.427, iou: 0.738, recall: 0.841, acc: 0.864
+Val 249, loss: 0.969, iou: 0.600, recall: 0.733, acc: 0.804
+Time: 23 s
+Train 250, loss: 0.459, iou: 0.682, recall: 0.801, acc: 0.846
+Val 250, loss: 1.026, iou: 0.612, recall: 0.738, acc: 0.798
+Time: 22 s
+Train 251, loss: 0.423, iou: 0.729, recall: 0.830, acc: 0.860
+Val 251, loss: 0.875, iou: 0.582, recall: 0.688, acc: 0.784
+Time: 22 s
+Train 252, loss: 0.406, iou: 0.764, recall: 0.838, acc: 0.875
+Val 252, loss: 0.904, iou: 0.607, recall: 0.750, acc: 0.790
+Time: 22 s
+Train 253, loss: 0.449, iou: 0.689, recall: 0.814, acc: 0.841
+Val 253, loss: 0.979, iou: 0.564, recall: 0.662, acc: 0.790
+Time: 23 s
+Train 254, loss: 0.447, iou: 0.739, recall: 0.851, acc: 0.860
+Val 254, loss: 0.865, iou: 0.591, recall: 0.709, acc: 0.788
+Time: 23 s
+Train 255, loss: 0.390, iou: 0.772, recall: 0.857, acc: 0.884
+Val 255, loss: 1.019, iou: 0.575, recall: 0.697, acc: 0.770
+Time: 23 s
+Train 256, loss: 0.418, iou: 0.758, recall: 0.864, acc: 0.867
+Val 256, loss: 1.011, iou: 0.602, recall: 0.731, acc: 0.774
+Time: 22 s
+Train 257, loss: 0.439, iou: 0.741, recall: 0.850, acc: 0.864
+Val 257, loss: 1.009, iou: 0.611, recall: 0.721, acc: 0.784
+Time: 22 s
+Train 258, loss: 0.473, iou: 0.713, recall: 0.818, acc: 0.843
+Val 258, loss: 1.080, iou: 0.610, recall: 0.719, acc: 0.760
+Time: 22 s
+Train 259, loss: 0.433, iou: 0.746, recall: 0.839, acc: 0.860
+Val 259, loss: 1.092, iou: 0.588, recall: 0.693, acc: 0.780
+Time: 22 s
+Train 260, loss: 0.423, iou: 0.744, recall: 0.841, acc: 0.873
+Val 260, loss: 1.025, iou: 0.646, recall: 0.751, acc: 0.804
+Time: 23 s
+Train 261, loss: 0.427, iou: 0.758, recall: 0.858, acc: 0.878
+Val 261, loss: 1.135, iou: 0.563, recall: 0.721, acc: 0.758
+Time: 22 s
+Train 262, loss: 0.471, iou: 0.730, recall: 0.835, acc: 0.846
+Val 262, loss: 1.086, iou: 0.617, recall: 0.748, acc: 0.790
+Time: 22 s
+Train 263, loss: 0.459, iou: 0.707, recall: 0.821, acc: 0.851
+Val 263, loss: 1.018, iou: 0.589, recall: 0.736, acc: 0.778
+Time: 22 s
+Train 264, loss: 0.420, iou: 0.750, recall: 0.822, acc: 0.864
+Val 264, loss: 0.982, iou: 0.625, recall: 0.744, acc: 0.806
+Time: 23 s
+Better model!
+Train 265, loss: 0.500, iou: 0.707, recall: 0.826, acc: 0.843
+Val 265, loss: 1.024, iou: 0.604, recall: 0.751, acc: 0.786
+Time: 23 s
+Train 266, loss: 0.440, iou: 0.726, recall: 0.820, acc: 0.859
+Val 266, loss: 0.981, iou: 0.621, recall: 0.761, acc: 0.804
+Time: 22 s
+Train 267, loss: 0.422, iou: 0.744, recall: 0.856, acc: 0.867
+Val 267, loss: 1.130, iou: 0.583, recall: 0.725, acc: 0.782
+Time: 22 s
+Train 268, loss: 0.408, iou: 0.745, recall: 0.848, acc: 0.863
+Val 268, loss: 1.015, iou: 0.611, recall: 0.734, acc: 0.792
+Time: 22 s
+Train 269, loss: 0.417, iou: 0.768, recall: 0.854, acc: 0.881
+Val 269, loss: 0.991, iou: 0.603, recall: 0.736, acc: 0.802
+Time: 22 s
+Train 270, loss: 0.381, iou: 0.741, recall: 0.834, acc: 0.877
+Val 270, loss: 0.995, iou: 0.609, recall: 0.750, acc: 0.772
+Time: 22 s
+Train 271, loss: 0.420, iou: 0.763, recall: 0.864, acc: 0.873
+Val 271, loss: 0.952, iou: 0.623, recall: 0.716, acc: 0.798
+Time: 22 s
+Train 272, loss: 0.362, iou: 0.802, recall: 0.883, acc: 0.883
+Val 272, loss: 0.936, iou: 0.674, recall: 0.768, acc: 0.820
+Time: 22 s
+Better model!
+Train 273, loss: 0.354, iou: 0.760, recall: 0.843, acc: 0.877
+Val 273, loss: 0.870, iou: 0.638, recall: 0.758, acc: 0.806
+Time: 23 s
+Train 274, loss: 0.362, iou: 0.779, recall: 0.865, acc: 0.883
+Val 274, loss: 1.095, iou: 0.570, recall: 0.704, acc: 0.764
+Time: 22 s
+Train 275, loss: 0.433, iou: 0.730, recall: 0.846, acc: 0.862
+Val 275, loss: 1.013, iou: 0.601, recall: 0.701, acc: 0.780
+Time: 22 s
+Train 276, loss: 0.441, iou: 0.745, recall: 0.846, acc: 0.852
+Val 276, loss: 1.052, iou: 0.636, recall: 0.735, acc: 0.800
+Time: 23 s
+Train 277, loss: 0.452, iou: 0.710, recall: 0.823, acc: 0.850
+Val 277, loss: 0.936, iou: 0.624, recall: 0.740, acc: 0.788
+Time: 22 s
+Train 278, loss: 0.375, iou: 0.783, recall: 0.868, acc: 0.879
+Val 278, loss: 0.863, iou: 0.600, recall: 0.735, acc: 0.802
+Time: 22 s
+Train 279, loss: 0.379, iou: 0.764, recall: 0.865, acc: 0.874
+Val 279, loss: 0.829, iou: 0.607, recall: 0.733, acc: 0.802
+Time: 22 s
+Train 280, loss: 0.361, iou: 0.791, recall: 0.870, acc: 0.898
+Val 280, loss: 0.997, iou: 0.607, recall: 0.736, acc: 0.792
+Time: 22 s
+Train 281, loss: 0.422, iou: 0.723, recall: 0.828, acc: 0.858
+Val 281, loss: 0.940, iou: 0.591, recall: 0.702, acc: 0.796
+Time: 22 s
+Train 282, loss: 0.417, iou: 0.730, recall: 0.839, acc: 0.861
+Val 282, loss: 0.906, iou: 0.624, recall: 0.769, acc: 0.814
+Time: 22 s
+Train 283, loss: 0.428, iou: 0.734, recall: 0.842, acc: 0.860
+Val 283, loss: 1.092, iou: 0.562, recall: 0.704, acc: 0.766
+Time: 22 s
+Train 284, loss: 0.383, iou: 0.759, recall: 0.851, acc: 0.880
+Val 284, loss: 1.163, iou: 0.572, recall: 0.715, acc: 0.770
+Time: 22 s
+Train 285, loss: 0.389, iou: 0.782, recall: 0.874, acc: 0.890
+Val 285, loss: 1.019, iou: 0.592, recall: 0.708, acc: 0.798
+Time: 22 s
+Train 286, loss: 0.351, iou: 0.801, recall: 0.873, acc: 0.894
+Val 286, loss: 0.932, iou: 0.595, recall: 0.701, acc: 0.800
+Time: 22 s
+Train 287, loss: 0.386, iou: 0.767, recall: 0.860, acc: 0.879
+Val 287, loss: 1.080, iou: 0.582, recall: 0.714, acc: 0.780
+Time: 22 s
+Train 288, loss: 0.422, iou: 0.720, recall: 0.825, acc: 0.864
+Val 288, loss: 0.988, iou: 0.609, recall: 0.718, acc: 0.782
+Time: 22 s
+Train 289, loss: 0.367, iou: 0.790, recall: 0.872, acc: 0.884
+Val 289, loss: 0.943, iou: 0.631, recall: 0.734, acc: 0.794
+Time: 23 s
+Train 290, loss: 0.393, iou: 0.781, recall: 0.871, acc: 0.889
+Val 290, loss: 0.892, iou: 0.645, recall: 0.760, acc: 0.810
+Time: 22 s
+Train 291, loss: 0.343, iou: 0.778, recall: 0.864, acc: 0.899
+Val 291, loss: 0.931, iou: 0.626, recall: 0.779, acc: 0.792
+Time: 23 s
+Train 292, loss: 0.410, iou: 0.755, recall: 0.864, acc: 0.864
+Val 292, loss: 0.919, iou: 0.610, recall: 0.719, acc: 0.784
+Time: 23 s
+Train 293, loss: 0.442, iou: 0.744, recall: 0.844, acc: 0.868
+Val 293, loss: 1.106, iou: 0.561, recall: 0.699, acc: 0.752
+Time: 22 s
+Train 294, loss: 0.378, iou: 0.754, recall: 0.853, acc: 0.879
+Val 294, loss: 1.033, iou: 0.600, recall: 0.732, acc: 0.782
+Time: 22 s
+Train 295, loss: 0.429, iou: 0.775, recall: 0.858, acc: 0.874
+Val 295, loss: 1.231, iou: 0.572, recall: 0.717, acc: 0.770
+Time: 22 s
+Train 296, loss: 0.357, iou: 0.776, recall: 0.867, acc: 0.887
+Val 296, loss: 1.071, iou: 0.568, recall: 0.685, acc: 0.784
+Time: 22 s
+Train 297, loss: 0.415, iou: 0.752, recall: 0.845, acc: 0.866
+Val 297, loss: 1.012, iou: 0.630, recall: 0.732, acc: 0.810
+Time: 23 s
+Train 298, loss: 0.351, iou: 0.767, recall: 0.866, acc: 0.890
+Val 298, loss: 1.107, iou: 0.559, recall: 0.690, acc: 0.766
+Time: 22 s
+Train 299, loss: 0.366, iou: 0.758, recall: 0.865, acc: 0.886
+Val 299, loss: 0.874, iou: 0.615, recall: 0.726, acc: 0.810
+Time: 22 s
