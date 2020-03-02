@@ -1,5 +1,5 @@
 # Scene-Recognition-in-3D
-This repository contains the source code and pretrained models from the paper [Scene Recognition in 3D](). 
+This repository contains the source code and pretrained models from the paper [Scene Recognition in 3D](https://arxiv.org/abs/2002.12819). 
 
 **Indoor Scene Recognition in 3D**
 
