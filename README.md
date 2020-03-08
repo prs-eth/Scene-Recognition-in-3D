@@ -56,7 +56,7 @@ Here are some great resources we benefit:
 - [DGCNN](https://github.com/WangYueFt/dgcnn)
 - [SpatioTemporalSegmentation](https://github.com/chrischoy/SpatioTemporalSegmentation)
 
-I personally also suggest these three repositories regarding sparse convolution to you:
+I personally also recommend these three repositories regarding sparse convolution to you:
 
 - [MinkowskiEngine](https://github.com/StanfordVL/MinkowskiEngine)
 - [SparseConvNet](https://github.com/facebookresearch/SparseConvNet)
