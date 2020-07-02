@@ -8,6 +8,17 @@ Shengyu Huang, Mikhail Usvyatsov, Konrad Schindler
 To the best of our knowledge, we are the first to study the task of indoor scene recognition in 3D.
 ![](tmp/arch.png)
 
+## Citation 
+If you find our work useful, please consider citing
+```shell
+@article{huang2020indoor,
+  title={Indoor Scene Recognition in 3D},
+  author={Huang, Shengyu and Usvyatsov, Mikhail and Schindler, Konrad},
+  journal={IROS},
+  year={2020}
+}
+```
+
 ## Dependencies
 The required libraries can be easily installed by runing
 ```shell
