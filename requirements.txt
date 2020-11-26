@@ -2,12 +2,11 @@ tqdm==4.38.0
 numpy==1.16.0
 h5py==2.9.0
 torchvision==0.4.2
-torch==1.3.1
+torch==1.4.2
 etw_pytorch_utils==1.1.1
 pandas==0.22.0
 pytest==3.3.2
 scipy==0.19.1
 plyfile==0.7
-MinkowskiEngine==0.4.1
 scikit_learn==0.22.1
 tensorboardX==2.0

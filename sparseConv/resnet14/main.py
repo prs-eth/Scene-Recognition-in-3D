@@ -1,6 +1,4 @@
 import os,sys
-sys.path.append('..')
-sys.path.append('../libs')
 from libs.cls_data_loader import get_iterators
 from libs.utils import getLogger
 from trainVal import train
@@ -47,11 +45,11 @@ if __name__=='__main__':
     torch.backends.cudnn.benchmark=True
     # dataset
     if(config['local']):
-        path_train='' 
-        path_val='' 
+        path_train='/net/pf-pc27/scratch3/scannet/dataset/train/*.pth' 
+        path_val='/net/pf-pc27/scratch3/scannet/dataset/val/*.pth' 
     else:
-        path_train=''
-        path_val=''
+        path_train='/cluster/work/igp_psr/shenhuan/dataset/train/*.pth'
+        path_val='/cluster/work/igp_psr/shenhuan/dataset/val/*.pth'
         
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # store settings

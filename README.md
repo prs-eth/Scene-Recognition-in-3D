@@ -8,6 +8,10 @@ Shengyu Huang, Mikhail Usvyatsov, Konrad Schindler
 To the best of our knowledge, we are the first to study the task of indoor scene recognition in 3D.
 ![](tmp/arch.png)
 
+## News
+- 2020-11-26 Updates on pretrained weights and a small data pre-processing script
+- 2019-02-28 initial release
+
 ## Citation 
 If you find our work useful, please consider citing
 ```shell
@@ -24,7 +28,7 @@ The required libraries can be easily installed by runing
 ```shell
 pip3 install -r requirements.txt
 ```
-We use MinkowskiEngine as our 3D sparse convolution framework. If you have problem with compiling it, please refer to [MinkowskiEngine](https://github.com/StanfordVL/MinkowskiEngine) for more details.
+We use MinkowskiEngine(v0.4.2) as our 3D sparse convolution framework. If you have problem with compiling it, please refer to [MinkowskiEngine](https://github.com/StanfordVL/MinkowskiEngine) for more details.
 
 ## Data
 We evaluate our model on [ScanNet benchmark](http://kaldir.vc.in.tum.de/scannet_benchmark/), the dataset is released under the [ScanNet Term of Use](http://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf), please contact ScanNet team for access. 

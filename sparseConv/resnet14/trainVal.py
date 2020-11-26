@@ -88,9 +88,6 @@ def train(net, loaders, device, logger, config):
         train_pred.append(preds)
         
         torch.cuda.empty_cache()
-        # end=time.time()
-        # print(end-start)
-        # start=time.time()
         ###########################
         ## validation
         ###########################

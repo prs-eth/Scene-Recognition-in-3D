@@ -27,10 +27,6 @@ class VGGNet(nn.Module):
         self.conv3=ME.MinkowskiConvolution(8,16,kernel_size=3,dimension=D)
         self.conv4=ME.MinkowskiConvolution(16,16,kernel_size=3,dimension=D)
         
-        
-        
-        
-    
 
     def weight_initialization(self):
         for m in self.modules():
