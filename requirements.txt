@@ -1,5 +1,5 @@
 tqdm==4.38.0
-numpy==1.16.0
+numpy==1.22.0
 h5py==2.9.0
 torchvision==0.4.2
 torch==1.4.2
