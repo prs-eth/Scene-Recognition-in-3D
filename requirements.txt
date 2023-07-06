@@ -6,7 +6,7 @@ torch==1.4.2
 etw_pytorch_utils==1.1.1
 pandas==0.22.0
 pytest==3.3.2
-scipy==0.19.1
+scipy==1.10.0
 plyfile==0.7
 scikit_learn==0.22.1
 tensorboardX==2.0
